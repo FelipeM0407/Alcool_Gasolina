@@ -9,7 +9,7 @@ class _HomeState extends State<Home> {
   TextEditingController _controllerAlcool = TextEditingController();
   TextEditingController _controllerGasolina = TextEditingController();
 
-  String _textoResultado = "";
+  String _textoResultado = ""; //Resultado comparação
 
   void _calcular() {
     double precoAlcool = double.tryParse(_controllerAlcool.text);
